@@ -1,0 +1,149 @@
+html{
+    background-color:white ;
+}
+body{
+    background-color:rgb(166, 223, 140);
+    margin:20px;
+    width: 1000 px;
+    
+   
+}
+.hi{
+   color :rgb(158, 24, 15);
+    padding-top:50px;
+    padding-left:450px;
+    font-size:50px;
+}
+
+
+a{  
+    color:rgb(0,0,0);
+}
+
+ header{
+    padding-top:60px;
+ }
+
+ li{
+    display:inline;
+    padding:55px;
+ }
+ 
+.right{
+    padding-top:20px;
+    width:500px;
+    float:left;
+    font-size:20px;
+}
+.left{
+    padding-top:20px;
+    width:500px;
+    float:right;
+    font-size:20px;
+    
+    
+    
+    
+}
+#logo{
+   
+padding-left:585px;  
+    color:rgb(158, 24, 15);
+    font-size:40px;
+    padding-bottom:5px;
+    max-width: 100%;
+     height: auto;
+}
+#logo p
+{
+    text-align:center;
+    padding-top:10px;
+    padding-right:550px;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+.cf {
+    *zoom: 1;
+}
+
+#main{
+    
+   
+    height:200px;
+    
+}
+#main p
+{
+    padding-left:25px;
+    padding-bottom: 10px;;
+    color:rgb(2, 42, 8);
+    text-align:center;  
+    font-size:30px;
+}
+form{ 
+    
+    text-align:center;
+    
+}
+#email{
+    
+    width:200px;
+    height:20px;
+    border-color: rgb(10, 88, 45);
+}
+#click{
+    width:200px;
+    height:20px;
+    border-color: rgb(10, 88, 45);
+}
+.box{
+    padding-top: 110px;;
+    float:left;
+    
+}
+.box img{   
+   
+margin-left:170px;
+
+
+}
+
+.box p{
+   padding-left:155px;
+height:50px;    
+text-align:center;
+
+}
+/*footer*/
+nav {
+    font-size:20px;
+    text-align:center;
+}
+footer{
+    background-color:rgb(91, 167, 116);
+    height:140px;
+    padding-top:80px;
+}
+footer li {
+
+    border-right:1px solid #373735;
+
+}
+footer li:last-child{
+    border-right:none;
+}
+footer img{
+    display:block;
+    margin:0 auto;
+   
+}
